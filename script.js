@@ -1,5 +1,4 @@
 // Basic JavaScript for future interaction enhancements
-console.log("SplitStay landing page loaded.");
 document.getElementById('waitlistForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var email = document.getElementById('email').value;
@@ -16,3 +15,5 @@ document.getElementById('waitlistForm').addEventListener('submit', function(even
         document.getElementById('message').innerText = 'Error: Could not send data.';
     });
 });
+console.log("SplitStay landing page loaded.");
+
