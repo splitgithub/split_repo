@@ -23,8 +23,8 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     width: auto;
     height: auto;
 }
@@ -51,8 +51,8 @@ h1, p {
     }
 
     .hero-image {
-        width: 100%;
-        height: auto;
+        max-width: 100%;
+        max-height: auto;
     }
 }
 
