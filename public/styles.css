@@ -15,10 +15,10 @@ body, html {
 .left-panel {
     flex: 1;
     position: relative;
-    overflow: hidden; /* Ensures video does not overflow its container */
+    overflow: hidden; /* Ensures image does not overflow its container */
 }
 
-.hero-video {
+.hero-image {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,7 +50,7 @@ h1, p {
         flex-direction: column; /* Stack elements vertically on smaller screens */
     }
 
-    .hero-video {
+    .hero-image {
         width: 100%;
         height: auto;
     }
